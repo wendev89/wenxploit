@@ -208,3 +208,107 @@
         .table-of-content ol li:first-child{border-top:0}
         .table-of-content ol li:last-child{border-bottom:1px solid #cccfe2}
       
+    
+button{
+    border-radius:100px;
+    padding:10px 25px;
+    font-size:16px;
+    text-transform:uppercase;
+    cursor:pointer;
+    color:white;
+    background-color:$(body.link.color);
+    background-position:center;
+    box-shadow:0 0 4px #999;
+    transition:background .3s;
+    }
+    button:hover, .ripple:hover{
+    background:$(body.link.hover.color) radial-gradient(circle, transparent 2%, $(body.link.hover.color) 2%) center/15000% !important;
+    }
+    button:active, .ripple:active{
+    background-color:#fff !important;
+    background-size:100% !important;
+    transition:background 0s !important;
+    }
+    button.download:before{
+    content:'';
+    width:15px;
+    height:15px;
+    display:inline-block;
+    vertical-align:-5px;
+    margin-right:5px;
+    background:url("data:image/svg+xml,%3Csvg viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M5,20H19V18H5M19,9H15V3H9V9H5L12,16L19,9Z' fill='%23fff'/%3E%3C/svg%3E") center center / 20px no-repeat;
+    }
+    button.demo:before{
+    content:'';
+    width:15px;
+    height:15px;
+    display:inline-block;
+    vertical-align:-5px;
+    margin-right:7px;
+    background:url("data:image/svg+xml,%3Csvg viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M12,9A3,3 0 0,0 9,12A3,3 0 0,0 12,15A3,3 0 0,0 15,12A3,3 0 0,0 12,9M12,17A5,5 0 0,1 7,12A5,5 0 0,1 12,7A5,5 0 0,1 17,12A5,5 0 0,1 12,17M12,4.5C7,4.5 2.73,7.61 1,12C2.73,16.39 7,19.5 12,19.5C17,19.5 21.27,16.39 23,12C21.27,7.61 17,4.5 12,4.5Z' fill='%23fff'/%3E%3C/svg%3E") center center / 20px no-repeat;
+    }
+    .svg-icon-24{
+    width:24px;
+    height:24px;
+    vertical-align:middle;
+    }
+    button.svg-icon-24-button{
+    border-radius:0px;
+    padding:0px;
+    background:transparent;
+    box-shadow:none;
+    }
+    button.svg-icon-24-button:hover{
+    background:none !important;
+    }
+
+.post-body .box{
+    padding:10px;
+    margin:20px 0px;
+    border-radius:7px;
+    }
+    .post-body .box.terminal{
+    color:#69CE00;
+    background-color:#1A1A1A;
+    border:1px solid #878787;
+    }
+    .post-body .box.green{
+    color:#155724;
+    background-color:#d4edda;
+    border:1px solid #c3e6cb;
+    }
+    .post-body .box.blue{
+    color:#004085;
+    background-color:#cce5ff;
+    border:1px solid #b8daff;
+    }
+    .post-body .box.red{
+    color:#721c24;
+    background-color:#f8d7da;
+    border:1px solid #f5c6cb;
+    }
+    .post-body .box.yellow{
+    color:#856404;
+    background-color:#fff3cd;
+    border:1px solid #ffeeba;
+    }
+
+      /* Author Box ala wendev89.site */
+#wenAuthor{text-align:center;background-color:#2f303f;color:#bdc3c7;line-height:20px;padding:15px 10px} #wenAuthor svg {width:14px;height:14px;margin-left:-3px;vertical-align:-3px} #wenAuthor svg path {fill:#bdc3c7} #wenAuthor img{border-radius:100px;max-width:100px;margin-bottom:10px} #sidebar-wrapper #wenAuthor h2, #sidebar-wrapper #wenAuthor h3{background:transparent;padding:0px} #sidebar-wrapper #wenAuthor h2{font-size:20px;display:inline-block} #sidebar-wrapper #wenAuthor h2:after{border:0px} #sidebar-wrapper #wenAuthor h3{font-size:15px;font-weight:normal} #sidebar-wrapper #wenAuthor h3:after{display:none} #wenAuthor hr{border:none;height:1px;background-color:#bdc3c7;width:70%;margin:10px auto} #wenAuthor2{width:100%;margin-bottom:20px} #wenAuthor2 svg {width:20px;height:20px;vertical-align:-4px} #wenAuthor2 svg path {fill:#fff} #wenAuthor2 li{list-style:none;background-color:#008c5f;color:#fff;width:50%;display:inline-block; text-align:center} #wenAuthor2 li:hover{background-color:#37b185}#wenAuthor2 li:nth-child(2){margin-left:-3.5px;border-left:3px solid #2f303f;float:right} #wenAuthor2 li a{color:#fff;padding:10px 30px;line-height:40px} .wenAuthor{text-align: left;font-size: 12px;display:flex;justify-content:center} .wenAuthor .tablekiri {width:50px} .wenAuthor .tablekanan{width: 85px;padding-left: 20px}
+#wenAuthor .medsos svg {width:20px;height:20px;margin-top:7px} #wenAuthor .medsos svg path {fill:#fff} .medsos .facebook{background:#3a579a} .medsos a{display:inline-block;text-align:center;margin-right:3px;color:#fff;border-radius:100%;width:35px;height:35px} .medsos a:hover{transform:rotate(360deg)} .medsos .twitter{background:#00abf0} .medsos .googleplus{background:#df4a32} .medsos .youtube{background:#cc181e} .medsos .Instagram{background:#992ebc} .medsos .pinterest{background:#cd1c1f} .medsos .linkedin{background:#2554BF} .medsos .tumblr{background:#314358} .medsos .rssfeed{background:#ee802f}
+#wenAuthor .wenBounce svg{width:20px;height:20px;vertical-align:-4px;margin-left:10px} #wenAuthor .wenBounce svg path{fill:#fff;} .wenBounce{display:block;background:#4d90fe;border:1px solid #3079ed;color:#fff!important;font-weight:900;font-size:16px!important;margin:0;padding:5px;text-align:center;border-radius:3px;margin:0;padding:5px;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;box-sizing:border-box} .wenBounce {-webkit-animation:rubberBand 1s linear 1s infinite normal;animation:rubberBand 1s linear 1s infinite normal}
+@media screen and (max-width:320px){#wenAuthor svg{width:12px; height:12px}}
+@keyframes rubberBand{0%,100%{-webkit-transform:scale3d(1,1,1);transform:scale3d(1,1,1)}
+30%{-webkit-transform:scale3d(1.25,.75,1);transform:scale3d(1.25,.75,1)}
+40%{-webkit-transform:scale3d(.75,1.25,1);transform:scale3d(.75,1.25,1)}
+50%{-webkit-transform:scale3d(1.15,.85,1);transform:scale3d(1.15,.85,1)}
+65%{-webkit-transform:scale3d(.95,1.05,1);transform:scale3d(.95,1.05,1)}
+75%{-webkit-transform:scale3d(1.05,.95,1);transform:scale3d(1.05,.95,1)}
+}
+@-webkit-keyframes rubberBand{0%,100%{-webkit-transform:scale3d(1,1,1);transform:scale3d(1,1,1)}
+30%{-webkit-transform:scale3d(1.25,.75,1);transform:scale3d(1.25,.75,1)}
+40%{-webkit-transform:scale3d(.75,1.25,1);transform:scale3d(.75,1.25,1)}
+50%{-webkit-transform:scale3d(1.15,.85,1);transform:scale3d(1.15,.85,1)}
+65%{-webkit-transform:scale3d(.95,1.05,1);transform:scale3d(.95,1.05,1)}
+75%{-webkit-transform:scale3d(1.05,.95,1);transform:scale3d(1.05,.95,1)}
+}
