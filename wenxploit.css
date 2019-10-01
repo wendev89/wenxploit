@@ -7,27 +7,27 @@
 		.post-body pre.jquery:before {content:&#39;jQuery&#39;; background-image:url(&quot;data:image/svg+xml,<svg viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'><path d='M22.88,10.41C20.77,12.18 17.61,11.9 15.84,9.79C14.06,7.67 14.34,4.5 16.45,2.75L16.96,2.37C15.27,4.19 15.16,7.03 16.8,9C18.43,10.94 21.25,11.32 23.34,9.97L22.88,10.41M21.1,14.5C17.93,17.17 13.2,16.76 10.54,13.58C7.87,10.41 8.29,5.68 11.46,3L12.38,2.36C9.96,5.09 9.84,9.26 12.26,12.14C14.68,15 18.8,15.63 21.91,13.72L21.1,14.5M19.97,19.38C15.53,23.11 8.9,22.53 5.17,18.08C1.45,13.64 2.03,7 6.47,3.29L7.58,2.5C4.07,6.3 3.85,12.23 7.28,16.32C10.71,20.4 16.59,21.22 20.96,18.43L19.97,19.38Z' fill='%231d2129'/></svg>&quot;);}
 		.post-body pre::-webkit-scrollbar,pre::-moz-scrollbar,pre code::-webkit-scrollbar,pre code::-moz-scrollbar,code::-webkit-scrollbar,code::-moz-scrollbar{display:none} .post-body pre code{line-height:1.5em;display:block;background:none;border:none;color:#24FF00;padding:10px 15px; font-size:12px;white-space:pre;overflow:auto;max-height:250px; user-select:text; -webkit-user-select:text; -khtml-user-select:text; -moz-user-select:text; -ms-user-select:text; user-select:text;} pre mark,code mark,pre code mark{background-color:#95b2f6 !important;color:#000000 !important;padding:2px;margin:0px; box-shadow: 0 0 30px rgba(0,0,0,0.4); border-radius: 3px;} .post-body code {user-select:text; -webkit-user-select:text; -khtml-user-select:text; -moz-user-select:text; -ms-user-select:text; user-select:text; -webkit-border-radius: 3px; -moz-border-radius: 3px;} .post-body code.tutor {color:#f44336; letter-spacing:-0.3px} post-body quote{border-left:5px solid var(--color-main); user-select:text; -webkit-user-select:text; -khtml-user-select:text; -moz-user-select:text; -ms-user-select:text; user-select:text; padding:0;margin:.5em auto;white-space:pre;word-wrap:break-word;overflow:auto;background-color:#292E34;position:relative;width:100%;-moz-tab-size:3;-moz-border-radius:3px;-webkit-border-radius:3px;box-shadow: 0 0 30px rgba(0,0,0,0.4);-webkit-border-top-radius:3px;-moz-border-radius-top:2px;border-top-radius:2px; -o-tab-size:2; tab-size:2; word-break:normal; -webkit-hyphens:none; -moz-hyphens:none; -ms-hyphens:none; hyphens:none}
 		
-/* Paypal Donation Box Bounce by igniel.com */
-.ignielDonasi {background:#bde0b9; /* warna background */
+/* Paypal Donation Box Bounce by wen  */
+.wenDonasi {background:#bde0b9; /* warna background */
   color:#000;
   display:-webkit-box; display:-webkit-flex; display:-moz-box; display:-ms-flexbox; display:flex; align-items:flex-start; flex-wrap:nowrap; justify-content:center; margin:20px 0px; display:flex; padding:15px; overflow:hidden; transition:all .3s ease; border-radius:7px;}
-.ignielDonasi .ikon a {background-color:#008c5f; /* warna ikon */
+.wenDonasi .ikon a {background-color:#008c5f; /* warna ikon */
   color:#fff;
-  text-decoration:none; display:block; padding:5px; border-radius:7px; text-align:center; -webkit-animation:ignielBounce 1s linear 1s infinite normal; animation:ignielBounce 1s linear 1s infinite normal}
-.ignielDonasi svg {width:50px; height:50px}
-.ignielDonasi svg path {fill:#bde0b9}
-.ignielDonasi .ikon {margin-right:15px}
-.ignielDonasi .deskripsi {line-height:1.5em;} 
-.ignielDonasi .deskripsi .judul {font-size:18px; font-weight:bold; display:block; margin-bottom:10px;}
+  text-decoration:none; display:block; padding:5px; border-radius:7px; text-align:center; -webkit-animation:wenBounce 1s linear 1s infinite normal; animation:wenBounce 1s linear 1s infinite normal}
+.wenDonasi svg {width:50px; height:50px}
+.wenDonasi svg path {fill:#bde0b9}
+.wenDonasi .ikon {margin-right:15px}
+.wenDonasi .deskripsi {line-height:1.5em;} 
+.wenDonasi .deskripsi .judul {font-size:18px; font-weight:bold; display:block; margin-bottom:10px;}
 
-@keyframes ignielBounce{0%,100%{-webkit-transform:scale3d(1,1,1);transform:scale3d(1,1,1)}
+@keyframes wenBounce{0%,100%{-webkit-transform:scale3d(1,1,1);transform:scale3d(1,1,1)}
 30%{-webkit-transform:scale3d(1.25,.75,1);transform:scale3d(1.25,.75,1)}
 40%{-webkit-transform:scale3d(.75,1.25,1);transform:scale3d(.75,1.25,1)}
 50%{-webkit-transform:scale3d(1.15,.85,1);transform:scale3d(1.15,.85,1)}
 65%{-webkit-transform:scale3d(.95,1.05,1);transform:scale3d(.95,1.05,1)}
 75%{-webkit-transform:scale3d(1.05,.95,1);transform:scale3d(1.05,.95,1)}
 }
-@-webkit-keyframes ignielBounce{0%,100%{-webkit-transform:scale3d(1,1,1);transform:scale3d(1,1,1)}
+@-webkit-keyframes wenBounce{0%,100%{-webkit-transform:scale3d(1,1,1);transform:scale3d(1,1,1)}
 30%{-webkit-transform:scale3d(1.25,.75,1);transform:scale3d(1.25,.75,1)}
 40%{-webkit-transform:scale3d(.75,1.25,1);transform:scale3d(.75,1.25,1)}
 50%{-webkit-transform:scale3d(1.15,.85,1);transform:scale3d(1.15,.85,1)}
@@ -35,51 +35,51 @@
 75%{-webkit-transform:scale3d(1.05,.95,1);transform:scale3d(1.05,.95,1)}
 }
 
-/* Anti AdBlock By igniel.com */
-#ignielAdBlock {background:rgba(0,0,0,0.85);padding:0;position:fixed;bottom:0;left:0;top:-100px;right:0;z-index:1000;opacity:1;visibility:visible;height:auto;}
-#ignielAdBlock svg {width:100px; height:100px}
-#ignielAdBlock svg path {fill:#fff}
-#ignielAdBlock a{color:#ffe88b;} #ignielAdBlock a:hover{color:#ffe88b;text-decoration:underline}
-#ignielAdBlock .isiAds{background:#e74c3c;color:#fff;position:absolute;text-align:center;padding:0 30px 30px 30px;margin:auto;top:30%;left:0;right:0;font-size:1.5rem;font-weight:400;line-height:1.5em;font-family:monospace;max-width:800px;box-shadow:0 20px 10px -10px rgba(0,0,0,0.15);border:15px solid rgba(0,0,0,.07); overflow:hidden; transition:all .6s cubic-bezier(.25,.8,.25,1); -webkit-transform:translateZ(0); transform:translateZ(0); backface-visibility:visible; transition:all .2s ease-in-out,visibility 0s; transform-origin:bottom center; pointer-events:auto; transform:rotateX(0deg) rotateY(0deg) rotateZ(0deg) scale(1); opacity:1; animation:ignielWobble .5s; -moz-animation: ignielWobble .5s; -webkit-animation:ignielWobble .5s; -o-animation:ignielWobble .5s}
-#ignielAdBlock .isiAds:hover{box-shadow:0 20px 10px -10px rgba(0,0,0,0.2);}
-#ignielAdBlock .isiAds h4, #ignielAdBlock .isiAds .judul{display:inline-block;background:rgba(0,0,0,.07);padding:5px 25px 15px 25px;font-size:2.2rem;font-weight:600;margin-bottom:20px}
-#ignielAdBlock .tutupAds{visibility:hidden;opacity:0;color:#ffe88b;text-align:center;position:absolute;bottom:10px;right:10px;font-size:42px;cursor:pointer;width:30px;height:30px;line-height:30px;border-radius:100%;transition:all .6s cubic-bezier(.25,.8,.25,1);transform:translate(0,50px);}
-#ignielAdBlock .tutupAds:hover{color:#fff;transform:scale(1.0);}
-#ignielAdBlock .isiAds:hover .tutupAds{visibility:hidden;opacity:0;color:#ffe88b;transform:translate(0,0)}
-@keyframes ignielWobble{0%{transform:scale(0) rotate(-54deg) translatey(40px)}45%{transform:scale(1.1) rotate(20deg) translatey(0px)}60%{transform:scale(1) rotate(-15deg) translatey(0px)}77%{transform:scale(1) rotate(10deg) translatey(0px)}100%{transform:translatey(0)}}
-@-webkit-keyframes ignielWobble{0%{transform:scale(0) rotate(-54deg) translatey(40px)}45%{transform:scale(1.1) rotate(20deg) translatey(0px)}60%{transform:scale(1) rotate(-15deg) translatey(0px)}77%{transform:scale(1) rotate(10deg) translatey(0px)}100%{transform:translatey(0)}}
-@-moz-keyframes ignielWobble{0%{transform:scale(0) rotate(-54deg) translatey(40px)}45%{transform:scale(1.1) rotate(20deg) translatey(0px)}60%{transform:scale(1) rotate(-15deg) translatey(0px)}77%{transform:scale(1) rotate(10deg) translatey(0px)}100%{transform:translatey(0)}}
+/* Anti AdBlock By wen */
+#wenAdBlock {background:rgba(0,0,0,0.85);padding:0;position:fixed;bottom:0;left:0;top:-100px;right:0;z-index:1000;opacity:1;visibility:visible;height:auto;}
+#wenAdBlock svg {width:100px; height:100px}
+#wenAdBlock svg path {fill:#fff}
+#wenAdBlock a{color:#ffe88b;} #wenAdBlock a:hover{color:#ffe88b;text-decoration:underline}
+#wenAdBlock .isiAds{background:#e74c3c;color:#fff;position:absolute;text-align:center;padding:0 30px 30px 30px;margin:auto;top:30%;left:0;right:0;font-size:1.5rem;font-weight:400;line-height:1.5em;font-family:monospace;max-width:800px;box-shadow:0 20px 10px -10px rgba(0,0,0,0.15);border:15px solid rgba(0,0,0,.07); overflow:hidden; transition:all .6s cubic-bezier(.25,.8,.25,1); -webkit-transform:translateZ(0); transform:translateZ(0); backface-visibility:visible; transition:all .2s ease-in-out,visibility 0s; transform-origin:bottom center; pointer-events:auto; transform:rotateX(0deg) rotateY(0deg) rotateZ(0deg) scale(1); opacity:1; animation:wenWobble .5s; -moz-animation: wenWobble .5s; -webkit-animation:wenWobble .5s; -o-animation:wenWobble .5s}
+#wenAdBlock .isiAds:hover{box-shadow:0 20px 10px -10px rgba(0,0,0,0.2);}
+#wenAdBlock .isiAds h4, #wenAdBlock .isiAds .judul{display:inline-block;background:rgba(0,0,0,.07);padding:5px 25px 15px 25px;font-size:2.2rem;font-weight:600;margin-bottom:20px}
+#wenAdBlock .tutupAds{visibility:hidden;opacity:0;color:#ffe88b;text-align:center;position:absolute;bottom:10px;right:10px;font-size:42px;cursor:pointer;width:30px;height:30px;line-height:30px;border-radius:100%;transition:all .6s cubic-bezier(.25,.8,.25,1);transform:translate(0,50px);}
+#wenAdBlock .tutupAds:hover{color:#fff;transform:scale(1.0);}
+#wenAdBlock .isiAds:hover .tutupAds{visibility:hidden;opacity:0;color:#ffe88b;transform:translate(0,0)}
+@keyframes wenWobble{0%{transform:scale(0) rotate(-54deg) translatey(40px)}45%{transform:scale(1.1) rotate(20deg) translatey(0px)}60%{transform:scale(1) rotate(-15deg) translatey(0px)}77%{transform:scale(1) rotate(10deg) translatey(0px)}100%{transform:translatey(0)}}
+@-webkit-keyframes wenWobble{0%{transform:scale(0) rotate(-54deg) translatey(40px)}45%{transform:scale(1.1) rotate(20deg) translatey(0px)}60%{transform:scale(1) rotate(-15deg) translatey(0px)}77%{transform:scale(1) rotate(10deg) translatey(0px)}100%{transform:translatey(0)}}
+@-moz-keyframes wenWobble{0%{transform:scale(0) rotate(-54deg) translatey(40px)}45%{transform:scale(1.1) rotate(20deg) translatey(0px)}60%{transform:scale(1) rotate(-15deg) translatey(0px)}77%{transform:scale(1) rotate(10deg) translatey(0px)}100%{transform:translatey(0)}}
 
-/* Spoiler Box Pure CSS by IGNIEL.COM */
-.ignielSpoiler {
+/* Spoiler Box Pure CSS by wen */
+.wenSpoiler {
     display:block; margin:10px 0px; border:1px solid #3498db; padding:7px 10px; border-radius:3px; -moz-border-radius:3px;
 }
-.ignielSpoiler .tombol {
+.wenSpoiler .tombol {
     background:#008c5f; /* Warna tombol */
     color:#000000; /* Warna tulisan di tombol */
     display:inline-block; cursor:pointer; font:normal 600 14px Tahoma,sans-serif; padding:0px; border:none; outline:none; line-height:20px; border-radius:3px; -moz-border-radius:3px;
 }
-.ignielSpoiler .tombol:focus {
+.wenSpoiler .tombol:focus {
     pointer-events:none;
 }
-.ignielSpoiler .tombol:before {
+.wenSpoiler .tombol:before {
     content:'BUKA'; /* Tulisan untuk membuka tombol */
     display:inline-block; padding:7px 10px; border-radius:3px; -moz-border-radius:3px;
 }
-.ignielSpoiler .tombol:focus::before {
+.wenSpoiler .tombol:focus::before {
     content:'TUTUP'; /* Tulisan untuk menutup tombol */
     background:#cc0000; /* Warna tombol ketika spoiler terbuka */
 }
-.ignielSpoiler .isi {
+.wenSpoiler .isi {
     background:#e4e4e4; /* Warna background isi spoiler */
     pointer-events:auto; visibility:hidden; opacity:0; height:0px; transition:all .5s ease;
 }
-.ignielSpoiler .tombol:focus + .isi {
+.wenSpoiler .tombol:focus + .isi {
     visibility:visible; opacity:1; height:auto; margin:10px 0px 5px; padding:10px 15px; transition:all .5s ease;
 }
  
-/* Blogspot Pagination by IGNIEL.COM */
-    #ignielPagination{
+/* Blogspot Pagination by wen */
+    #wenPagination{
     display:-webkit-box;
     display:-webkit-flex;
     display:-moz-box;
@@ -90,35 +90,35 @@
     justify-content:center;
     font-weight:500;
     }
-    #ignielPagination:before{
+    #wenPagination:before{
     content:'PAGES';
     margin-right:10px;
     margin-top:7px;
     }
-    #ignielPagination a,#ignielPagination .selected{
+    #wenPagination a,#wenPagination .selected{
     color:#fff;
     padding:7px 15px;
     margin:10px 10px 0px 0px;
     border-radius:7px;
     box-shadow:0 1px 3px rgba(0,0,0,.12), 0 1px 2px rgba(0,0,0,.24);
     }
-    #ignielPagination a{
-    background-color:$(igniplex.main.color);
+    #wenPagination a{
+    background-color:$(wendev.main.color);
     }
-    #ignielPagination a:last-child {
+    #wenPagination a:last-child {
     margin-right:0px;
     }
-    #ignielPagination a:hover {
-    background-color:$(igniplex.second.color);
+    #wenPagination a:hover {
+    background-color:$(wendev.second.color);
     }
-    #ignielPagination a:hover:before{
+    #wenPagination a:hover:before{
     display:none;
     }
-    #ignielPagination a:after{
+    #wenPagination a:after{
     display:none;
     }
-    #ignielPagination .selected{
-    background-color:$(igniplex.second.color);
+    #wenPagination .selected{
+    background-color:$(wendev.second.color);
     cursor:not-allowed;
     }
 
