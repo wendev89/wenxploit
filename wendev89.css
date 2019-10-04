@@ -587,3 +587,101 @@
 		background-color:var(--color-hover);
 		}
 
+/* Parallax */
+		.KaXTamParallax {
+		position: relative;
+		overflow: visible;
+		width: 100%;
+		margin:auto;
+		text-align:center;
+		}
+		.KaXTamParallax &gt; div {
+		overflow: hidden;
+		width: 100%;
+		height: 100%;
+		margin: 0;
+		position: absolute;
+		top: 0;
+		left: 0;
+		clip: rect(auto auto auto auto);
+		}
+		.KaXTamParallax &gt; div &gt; div {
+		width: calc(100% - 40px);
+		height: 100%;
+		position: fixed;
+		top: 0px;
+		left:0px;
+		right:0px;
+		margin: 0 auto;
+		-moz-transform: translateZ(0);
+		-webkit-transform: translateZ(0);
+		-ms-transform: translateZ(0);
+		-o-transform: translateZ(0);
+		transform: translateZ(0);
+		}
+		.KaXTamParallax &gt; div &gt; div &gt; div {
+		width: 100%;
+		height: 100%;
+		position: absolute;
+		left: 0px;
+		right:0px;
+		top:37px;
+		display: -webkit-flex;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-align-content: center;
+		align-content: center;
+		-webkit-align-items: center;
+		-ms-flex-align: center;
+		align-items: center;
+		background: #fff;
+		}
+		.KaXTamParallax &gt; div &gt; div &gt; div &gt; * {
+		margin:auto;
+		}
+		.KaXTamParallax &gt; div &gt; div &gt; div &gt; a {
+		width: 100%;
+		height: 100%;
+		}
+		.KaXTamParallax img, .KaXTamParallax iframe, .KaXTamParallax ins {
+		height:100%;
+		border:0px;
+		}
+		@media screen and (max-width:320px) {.KaXTamShare ul li.total{font-size:18px;}}
+		@media screen and (max-width:240px) {}
+		/* CSS Item Responsive */
+		@media only screen and (max-width:1024px){.KaXTamShare .total{font-size:24px;}}
+		@media only screen and (max-width:900px){#main-wrapper{width:100%; margin-bottom:20px} .post-info{margin:0;padding-bottom:20px;} #HTML3{max-width:100%; position:relative !important; top:initial !important} .KaXTamToTop.show{bottom:80px; right:20px}
+		#sidebar-sticky {position:relative; -webkit-position:relative; top:0px; max-width:100%; display:block}}
+		@media only screen and (max-width:768px){}
+		@media only screen and (max-width:715px){
+		.KaXTamShare .total{font-size:22px;} .KaXTamShare a {border-radius:100px; background-size:20px; background-position:center;} .KaXTamShare a span {display:none;}
+		}
+		@media only screen and (max-width:640px){
+		h1.post-title.entry-title, h2.post-title.entry-title {font-size:24px; padding:0px} #searchbar form:after{right:12%; top:40%} .isitag {display:block} .shorten-box{float:left;display:block;margin-bottom:15px;margin-top:15px}
+		#blog-pager-newer-link, #blog-pager-older-link {float: none; width: 100%; display: block; text-align: center;} #blog-pager-newer-link {margin-bottom:20px;}
+		}
+		@media screen and (max-width:568px) {
+		#FeaturedPost1 .widget-content {font-size:14px; padding-right:15px;}
+		#FeaturedPost1 h2 {padding:5px; margin-right:7px;}
+		#FeaturedPost1 h2:before {background-color:var(--color-hover); width:30px; height:30px; background-size:20px 20px; margin-right:0px;}
+		#FeaturedPost1 h2 span {display:none;}
+		}
+		@media screen and (max-width:480px) {
+		.KaXTamShare{justify-content:flex-end;padding:7px 0px;}
+		.KaXTamShare a{background-size:17px; width:auto; height:auto; padding:17px; margin-right:10px;}
+		.KaXTamShare .total{float:left; position:absolute; left:0px; }
+		.KaXTamShare .total:before {display:inline-block; vertical-align:-3px;}
+		h1.post-title.entry-title, h2.post-title.entry-title{line-height:27px} .post{padding:13px 15px; margin-top:10px;} .referensi {margin-bottom:20px} #KaXTamRelated .isirelated{padding:10px; 15px;}
+		#FeaturedPost1 {margin-bottom:10px;}
+		#subscribe .isi{display:block; padding:15px;}
+		#subscribe .isi .kiri{margin-right:0px}
+		#subscribe .isi .kanan{margin-top:15px;}
+		#subscribe form input[type=&quot;submit&quot;]{padding:10px;}
+		}
+		@media screen and (max-width:360px) {.KaXTamShare a{margin-right:5px;} .post-info{margin-top:0px} .parallax_div iframe, .parallax_banner ins {
+		margin:0 auto; width:100%; height:600px} .bacajuga ul li{margin:0px 10px; -webkit-margin-start:10px !important;}
+		}
+		
+
+		
