@@ -1,0 +1,374 @@
+
+/* CSE Search */
+		#KaXTamCSE {font-family:-apple-system,BlinkMacSystemFont,&quot;Roboto&quot;,&quot;Segoe UI&quot;,&quot;Oxygen-Sans&quot;,&quot;Ubuntu&quot;,&quot;Cantarell&quot;,&quot;Helvetica Neue&quot;,sans-serif; padding:0px; text-align:left; width:100%; height:100%; line-height:18px}
+		#KaXTamCSE .cse .gsc-control-cse, .gsc-control-cse {padding:0px}
+		#KaXTamCSE .gsc-control-cse {margin:0px; padding:0px}
+		#KaXTamCSE .gsc-control-cse .gsc-table-result {margin:0 0 15px 0}
+		#KaXTamCSE .gsc-control-cse .gsc-table-result td {border:0px}
+		#KaXTamCSE .gsc-results {width:100%}
+		#KaXTamCSE .gsc-search-box, #KaXTamCSE .gsc-above-wrapper-area, #KaXTamCSE .gsc-resultsHeader {display:none}
+		#KaXTamCSE .gsc-webResult .gsc-result {padding:0px}
+		#KaXTamCSE .gsc-webResult .gsc-result:nth-child(4) {border-bottom:0}
+		#KaXTamCSE .gs-result .gs-title, #KaXTamCSE .gs-result .gs-title * {font-family:&#39;Google Sans&#39;; font-weight:500; font-size:16px; text-decoration:none; color:var(--color-main); padding-bottom:22px; transition:all .3s ease;}
+		#KaXTamCSE .gs-result .gs-title:hover, #KaXTamCSE .gs-result .gs-title:hover * {color:var(--color-hover)}
+		#KaXTamCSE .gs-result .gs-snippet {font-size:12px}
+		#KaXTamCSE .gsc-reviewer, #KaXTamCSE .gs-result a.gs-visibleUrl, #KaXTamCSE .gs-result .gs-visibleUrl{color:#767676}
+		#KaXTamCSE .gsc-table-cell-thumbnail, #KaXTamCSE .gs-promotion-image-cell {padding-right:10px}
+		#KaXTamCSE .gsc-results .gsc-cursor-box {margin:0px}
+		#KaXTamCSE .gsc-preview-reviews ul {margin:0px}
+		#KaXTamCSE .gsc-cursor .gsc-cursor-page.gsc-cursor-current-page, #KaXTamCSE .gsc-cursor .gsc-cursor-page {color:#fff; text-decoration:none; margin:5px 10px 0 0; padding: 5px 10px; border-radius: 5px; display:inline-block}
+		#KaXTamCSE .gsc-cursor .gsc-cursor-page.gsc-cursor-current-page {background:var(--color-hover) !important;}
+		#KaXTamCSE .gsc-cursor .gsc-cursor-page {background:var(--color-main); transition:all .3s ease;}
+		#KaXTamCSE .gsc-cursor .gsc-cursor-page:hover {background:var(--color-hover)}
+		#KaXTamCSE .gsc-url-top {padding:0px}
+		#KaXTamCSE .gs-webResult .gs-snippet, .gs-imageResult .gs-snippet, .gs-fileFormatType {color:var(--color-hover)}
+		#KaXTamCSE .gsc-thumbnail-inside {padding:0px}
+		#KaXTamCSE .cse .gsc-webResult.gsc-result, #KaXTamCSE .gsc-webResult.gsc-result, #KaXTamCSE .gsc-imageResult-column, #KaXTamCSE .gsc-imageResult-classic {margin-bottom:0px}
+		/* Night Mode */
+		.KaXTamNight .post, .KaXTamNight #comments .comment, .KaXTamNight #comments .comment-form, .KaXTamNight #subscribe .isi{
+		background-color: var(--color-hover);
+		color: #bdc3c7;
+		}
+		.KaXTamNight .post-info {
+		border-bottom:1px solid #555;
+		}
+		.KaXTamNight .post-body pre.html:before, .KaXTamNight .post-body pre.css:before, .KaXTamNight .post-body pre.javascript:before, .KaXTamNight .post-body pre.jquery:before {
+		color: var(--color-hover);
+		}
+		.KaXTamNight .KaXTamPilihan h2 span, .KaXTamNight #KaXTamRelated h3 span, .KaXTamNight #comments h3 span, .KaXTamNight #subscribe h3 span, .KaXTamNight #subscribe form input[type=&quot;email&quot;] {
+		background-color: #292E34;
+		color: #bdc3c7;
+		}
+		.KaXTamNight #comments .comment .comment-replies .comment {
+		border-top: 1px solid #555;
+		}
+		.KaXTamNight .KaXTamShare {
+		background-color: var(--color-hover);
+		border-top: 7px dotted #555;
+		}
+		.KaXTamNight .post-body, .KaXTamNight #comments .comment .comment-header .user, .KaXTamNight .blog-pager-newer-link span:first-child, .KaXTamNight .blog-pager-older-link span:first-child, .KaXTamNight #blog-pager a.blog-pager-newer-link:hover, .KaXTamNight #blog-pager a.blog-pager-older-link:hover {
+		color:#bdc3c7;
+		}
+		.KaXTamNight #blog-pager-older-link span:first-child::after {margin-right:-5px; width:20px; height:20px; vertical-align:-5px; display:inline-block; transition:all .3s ease; background:url(&quot;data:image/svg+xml,<svg viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'><path d='M8.59,16.58L13.17,12L8.59,7.41L10,6L16,12L10,18L8.59,16.58Z' fill='%23bdc3c7'/></svg>&quot;) no-repeat; content:&#39;&#39;
+		}
+		.KaXTamNight #blog-pager-newer-link span:first-child:before {margin-left:-5px; width:20px; height:20px; vertical-align:-5px; display:inline-block; transition:all .3s ease; background: url(&quot;data:image/svg+xml,<svg viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'><path d='M15.41,16.58L10.83,12L15.41,7.41L14,6L8,12L14,18L15.41,16.58Z' fill='%23bdc3c7'/></svg>&quot;) no-repeat; content:&#39;&#39;
+		}
+		.KaXTamNight .info, .KaXTamNight .tips {
+		color: var(--color-hover);
+		}
+		.KaXTamNight .warning {
+		color: #fff;
+		}
+		.KaXTamNight #toc {
+		background-color: #292E34;
+		border: 1px solid #292E34;
+		}
+		.KaXTamNight .referensi {
+		background-color: #292E34;
+		}
+		.KaXTamNight #commentsHolder {
+		background-color: var(--color-hover);
+		border-top: 1px dashed #555;
+		border-bottom: 1px dashed #555;
+		}
+		.KaXTamNight #postCommentButtonHolder {
+		background: var(--color-hover);
+		}
+		.KaXTamNight #commentSelectorLabel, .KaXTamNight #identityMenu, .KaXTamNight #commentBodyField, .KaXTamNight #subscribeButtonHolder .checkboxLabel {
+		color: #bdc3c7;
+		}
+		.KaXTamNight #comments .comment-form p.komen {
+		background-color: #292E34;
+		border: 1px dotted #555;
+		}
+		@media screen and (max-width:320px){.post{border-left:0px; border-right:0px}}
+		/* Share Button dengan Counter untuk Blogger by KaXTam.COM */
+		.KaXTamShare {
+		display:-webkit-box;
+		display:-webkit-flex;
+		display:-moz-box;
+		display:-ms-flexbox;
+		display:flex;
+		flex-wrap:nowrap;
+		align-items:center;
+		justify-content:space-between;
+		background-color:#fff;
+		margin-top:20px;
+		padding:10px 0px;
+		border-top:7px dotted #dddfe2;
+		bottom:0px;
+		z-index:1;
+		transition:all .3s ease;
+		}
+		.KaXTamShare .total{
+		display:-webkit-box;
+		display:-webkit-flex;
+		display:-moz-box;
+		display:-ms-flexbox;
+		display:flex;
+		flex-wrap:nowrap;
+		align-items:center;
+		color:var(--color-main);
+		margin-right:30px;
+		font-size:24px;
+		font-weight:500;
+		}
+		.KaXTamShare .total:before{
+		content:&#39;&#39;;
+		width:23px;
+		height:23px;
+		margin-right:5px;
+		background:url(&quot;data:image/svg+xml,%3Csvg viewBox=&#39;0 0 24 24&#39; xmlns=&#39;http://www.w3.org/2000/svg&#39;%3E%3Cpath d=&#39;M18,16.08C17.24,16.08 16.56,16.38 16.04,16.85L8.91,12.7C8.96,12.47 9,12.24 9,12C9,11.76 8.96,11.53 8.91,11.3L15.96,7.19C16.5,7.69 17.21,8 18,8A3,3 0 0,0 21,5A3,3 0 0,0 18,2A3,3 0 0,0 15,5C15,5.24 15.04,5.47 15.09,5.7L8.04,9.81C7.5,9.31 6.79,9 6,9A3,3 0 0,0 3,12A3,3 0 0,0 6,15C6.79,15 7.5,14.69 8.04,14.19L15.16,18.34C15.11,18.55 15.08,18.77 15.08,19C15.08,20.61 16.39,21.91 18,21.91C19.61,21.91 20.92,20.61 20.92,19A2.92,2.92 0 0,0 18,16.08Z&#39; fill=&#39;%2300887a&#39;/%3E%3C/svg%3E&quot;) center no-repeat;
+		}
+		.KaXTamShare a{
+		width:calc(100% / 6);
+		color:#fff;
+		font-size:12px;
+		box-shadow:none;
+		line-height:0px;
+		padding:15px;
+		margin-right:7px;
+		text-align:right;
+		border-radius:15px;
+		background-size:30px 20px;
+		background-repeat:no-repeat;
+		background-position:5px center;
+		}
+		.KaXTamShare a:hover{
+		color:#fff; box-shadow:inset 0 0 0 99999px rgba(255,255,255,0.25);
+		}
+		.KaXTamShare a:last-child{margin-right:0px;}
+		.KaXTamShare a.facebook {background-color:#3a579a; background-image:url(&quot;data:image/svg+xml,%3Csvg viewBox=&#39;0 0 24 24&#39; xmlns=&#39;http://www.w3.org/2000/svg&#39;%3E%3Cpath d=&#39;M17,2V2H17V6H15C14.31,6 14,6.81 14,7.5V10H14L17,10V14H14V22H10V14H7V10H10V6A4,4 0 0,1 14,2H17Z&#39; fill=&#39;%23fff&#39;/%3E%3C/svg%3E&quot;)}
+		.KaXTamShare a.twitter {background-color:#00abf0; background-image:url(&quot;data:image/svg+xml,%3Csvg viewBox=&#39;0 0 24 24&#39; xmlns=&#39;http://www.w3.org/2000/svg&#39;%3E%3Cpath d=&#39;M22.46,6C21.69,6.35 20.86,6.58 20,6.69C20.88,6.16 21.56,5.32 21.88,4.31C21.05,4.81 20.13,5.16 19.16,5.36C18.37,4.5 17.26,4 16,4C13.65,4 11.73,5.92 11.73,8.29C11.73,8.63 11.77,8.96 11.84,9.27C8.28,9.09 5.11,7.38 3,4.79C2.63,5.42 2.42,6.16 2.42,6.94C2.42,8.43 3.17,9.75 4.33,10.5C3.62,10.5 2.96,10.3 2.38,10C2.38,10 2.38,10 2.38,10.03C2.38,12.11 3.86,13.85 5.82,14.24C5.46,14.34 5.08,14.39 4.69,14.39C4.42,14.39 4.15,14.36 3.89,14.31C4.43,16 6,17.26 7.89,17.29C6.43,18.45 4.58,19.13 2.56,19.13C2.22,19.13 1.88,19.11 1.54,19.07C3.44,20.29 5.7,21 8.12,21C16,21 20.33,14.46 20.33,8.79C20.33,8.6 20.33,8.42 20.32,8.23C21.16,7.63 21.88,6.87 22.46,6Z&#39; fill=&#39;%23fff&#39;/%3E%3C/svg%3E&quot;)}
+		.KaXTamShare a.gplus {background-color:#df4a32; background-image:url(&quot;data:image/svg+xml,%3Csvg viewBox=&#39;0 0 24 24&#39; xmlns=&#39;http://www.w3.org/2000/svg&#39;%3E%3Cpath d=&#39;M23,11H21V9H19V11H17V13H19V15H21V13H23M8,11V13.4H12C11.8,14.4 10.8,16.4 8,16.4C5.6,16.4 3.7,14.4 3.7,12C3.7,9.6 5.6,7.6 8,7.6C9.4,7.6 10.3,8.2 10.8,8.7L12.7,6.9C11.5,5.7 9.9,5 8,5C4.1,5 1,8.1 1,12C1,15.9 4.1,19 8,19C12,19 14.7,16.2 14.7,12.2C14.7,11.7 14.7,11.4 14.6,11H8Z&#39; fill=&#39;%23fff&#39;/%3E%3C/svg%3E&quot;)}
+		.KaXTamShare a.pinterest {background-color:#cd1c1f; background-image:url(&quot;data:image/svg+xml,%3Csvg viewBox=&#39;0 0 24 24&#39; xmlns=&#39;http://www.w3.org/2000/svg&#39;%3E%3Cpath d=&#39;M13.25,17.25C12.25,17.25 11.29,16.82 10.6,16.1L9.41,20.1L9.33,20.36L9.29,20.34C9.04,20.75 8.61,21 8.12,21C7.37,21 6.75,20.38 6.75,19.62C6.75,19.56 6.76,19.5 6.77,19.44L6.75,19.43L6.81,19.21L9.12,12.26C9.12,12.26 8.87,11.5 8.87,10.42C8.87,8.27 10.03,7.62 10.95,7.62C11.88,7.62 12.73,7.95 12.73,9.26C12.73,10.94 11.61,11.8 11.61,13C11.61,13.94 12.37,14.69 13.29,14.69C16.21,14.69 17.25,12.5 17.25,10.44C17.25,7.71 14.89,5.5 12,5.5C9.1,5.5 6.75,7.71 6.75,10.44C6.75,11.28 7,12.12 7.43,12.85C7.54,13.05 7.6,13.27 7.6,13.5A1.25,1.25 0 0,1 6.35,14.75C5.91,14.75 5.5,14.5 5.27,14.13C4.6,13 4.25,11.73 4.25,10.44C4.25,6.33 7.73,3 12,3C16.27,3 19.75,6.33 19.75,10.44C19.75,13.72 17.71,17.25 13.25,17.25Z&#39; fill=&#39;%23fff&#39;/%3E%3C/svg%3E&quot;)}
+		.KaXTamShare a.linkedin {background-color:#2554BF; background-image:url(&quot;data:image/svg+xml,%3Csvg viewBox=&#39;0 0 24 24&#39; xmlns=&#39;http://www.w3.org/2000/svg&#39;%3E%3Cpath d=&#39;M21,21H17V14.25C17,13.19 15.81,12.31 14.75,12.31C13.69,12.31 13,13.19 13,14.25V21H9V9H13V11C13.66,9.93 15.36,9.24 16.5,9.24C19,9.24 21,11.28 21,13.75V21M7,21H3V9H7V21M5,3A2,2 0 0,1 7,5A2,2 0 0,1 5,7A2,2 0 0,1 3,5A2,2 0 0,1 5,3Z&#39; fill=&#39;%23fff&#39;/%3E%3C/svg%3E&quot;)}
+		.KaXTamShare a.tumblr {background-color:#314358; background-image:url(&quot;data:image/svg+xml,%3Csvg viewBox=&#39;0 0 512 512&#39; xmlns=&#39;http://www.w3.org/2000/svg&#39;%3E%3Cpath d=&#39;M210.8 80.3c-2.3 18.3-6.4 33.4-12.4 45.2 -6 11.9-13.9 22-23.9 30.5 -9.9 8.5-21.8 14.9-35.7 19.5v50.6h38.9v124.5c0 16.2 1.7 28.6 5.1 37.1 3.4 8.5 9.5 16.6 18.3 24.2 8.8 7.6 19.4 13.4 31.9 17.5 12.5 4.1 26.8 6.1 43 6.1 14.3 0 27.6-1.4 39.9-4.3 12.3-2.9 26-7.9 41.2-15v-55.9c-17.8 11.7-35.7 17.5-53.7 17.5 -10.1 0-19.1-2.4-27-7.1 -5.9-3.5-10-8.2-12.2-14 -2.2-5.8-3.3-19.1-3.3-39.7v-91.1H345.5v-55.8h-84.4v-90H210.8z&#39; fill=&#39;%23fff&#39;/%3E%3C/svg%3E&quot;)}
+		/* Kotak Donasi */
+		.donasi{display:-webkit-box; display:-webkit-flex; display:-moz-box; display:-ms-flexbox; display:flex; align-items:center; flex-wrap:nowrap; justify-content:center; margin-top:20px; display:flex; background:#bde0b9; color:var(--color-hover); padding:15px; overflow:hidden; transition:all .3s ease; border-radius:7.5px;}
+		.donasi svg{width:50px;height:50px} .donasi svg path{fill:#bde0b9} .donasi .avatar{margin-right:15px} .donasi .avatar a span{color:#fff} .donasi .deskripsi{line-height:24px;} .donasi .deskripsi .judul{font-size:18px;font-weight:500;display:block;}
+		/* Kotak Subscribe */
+		#subscribe{
+		margin-top:40px;
+		}
+		#subscribe svg{width:50px; height:50px; -webkit-animation:KaXTamRing 5s 0s ease-in-out infinite; -webkit-transform-origin:50% 4px; -moz-animation:KaXTamRing 5s 0s ease-in-out infinite; -moz-transform-origin:50% 4px; animation:KaXTamRing 5s 0s ease-in-out infinite; transform-origin:50% 4px;}
+		#subscribe svg path{fill:var(--color-main);}
+		#subscribe h3{background: url(&quot;data:image/svg+xml,<svg viewBox='0 0 48.34 4.99' xmlns='http://www.w3.org/2000/svg'><polygon fill='%23008c5f' points='27.36 0 48.34 0 45.48 4.99 24.5 4.99 27.36 0'/><polygon fill='%231d2129' points='2.86 0 23.84 0 20.98 4.99 0 4.99 2.86 0'/></svg>&quot;) center center repeat-x;
+		content: &#39;&#39;; line-height:30px; width:100%; height:6px; position:relative; display:inline-block}
+		#subscribe h3 span {font-size:20px; background-color:#dddfe2; padding-right:10px; position:relative; top:-12px; transition:all 0.3s ease;}
+		#subscribe .isi{
+		background-color:#fff;
+		box-shadow:0 1px 3px rgba(0,0,0,.12), 0 1px 2px rgba(0,0,0,.24);
+		border-radius:15px;
+		padding:15px 20px;
+		text-align:center;
+		display:-webkit-box;
+		display:-webkit-flex;
+		display:-moz-box;
+		display:-ms-flexbox;
+		display:flex;
+		align-items:center;
+		justify-content:space-between;
+		}
+		#subscribe .isi .kiri{margin-right:30px;}
+		#subscribe .isi .kanan{width:100%;}
+		#subscribe form{
+		display:-webkit-box;
+		display:-webkit-flex;
+		display:-moz-box;
+		display:-ms-flexbox;
+		display:flex;
+		justify-content:center;
+		align-items:center;
+		position:relative;
+		margin:0px;
+		}
+		#subscribe form:before {left:10px; position:absolute; display:inline-block; width:20px; height:20px; background:url(&quot;data:image/svg+xml,<svg viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'><path d='M20,8L12,13L4,8V6L12,11L20,6M20,4H4C2.89,4 2,4.89 2,6V18A2,2 0 0,0 4,20H20A2,2 0 0,0 22,18V6C22,4.89 21.1,4 20,4Z' fill='%23717171'/></svg>&quot;) no-repeat; content:&#39;&#39;;}
+		#subscribe form input[type=&quot;email&quot;]{
+		background-color:#dddfe2;
+		color:var(--color-hover);
+		padding:11px 10px 10px 40px;
+		flex-grow:1;
+		width:100%;
+		border:0px;
+		border-radius:5px 0px 0px 5px;
+		}
+		#subscribe form input[type=&quot;submit&quot;]{
+		background-color:var(--color-main);
+		font-size:16px;
+		color:#fff;
+		padding:10px 20px;
+		margin-bottom:0px;
+		text-transform:uppercase;
+		border:0px;
+		border-radius:0px 5px 5px 0px;
+		cursor:pointer;
+		line-height:1em;
+		transition:all .3s ease;
+		}
+		#subscribe form input[type=&quot;submit&quot;]:hover{
+		background-color:var(--color-hover);
+		}
+		/* Table Of Content (TOC) */
+		#toc{display:table; background-color:#f0f0f0; border:1px solid #a2a9b1; padding:15px 20px; transition:all .3s ease;}
+		#toc:before {content:&#39;Daftar Isi&#39;; font-size:20px; display:block; margin-bottom:10px; letter-spacing:1px}
+		dl {margin:0px; padding:0px}
+		dd {-webkit-margin-start:20px !important; -moz-margin-start:20px !important}
+		:target::before{content:&quot;&quot;;display:block;height:50px;margin-top:-50px;visibility:hidden}
+		/* Table of Contents Wikipedia by KaXTam.com */
+		.toc {background-color:#f8f9fa; border:1px solid #a2a9b1; padding:10px 13px; display:table; line-height:1.6em;}
+		.toc h2 {display:inline; margin-right:10px}
+		.toc a {text-decoration:none}
+		.toc a:hover {text-decoration:underline}
+		.toc ul {list-style-type:none; list-style-image:none; margin-left:0px; margin-bottom:0px; padding:0px; text-align:left}
+		.toc ul li {list-style-type:none;-webkit-margin-start:15px !important;line-height:26px;}
+		.toc ul li a {margin-left:3px;}
+		.toc ul li a:hover {text-decoration:none;}
+		.toc ul li ul {margin:0px;}
+		.toctogglelabel {cursor:pointer; color:#0645ad}
+		:not(:checked) &gt; .toctoggle {display:inline !important; position:absolute;  opacity:0}
+		:not(:checked) &gt; .toctogglespan:before {content:&#39;[&#39;}
+		.toctoggle:not(:checked) + .toctitle .toctogglelabel:after {content:&#39;sembunyikan&#39;;display: inline}
+		.toctoggle:checked + .toctitle .toctogglelabel:after {content:&#39;tampilkan&#39;}
+		:not(:checked) &gt; .toctogglespan:after {content:&#39;]&#39;}
+		.toctoggle:checked ~ ul{display:none}
+		:target::before {content:&#39;&#39;; display:block; height:45px; margin-top:-45px; visibility:hidden}
+		
+/* Author Box */
+		#KaXTamAuthor{width:100%; max-width:300px; text-align:center;background-color:var(--color-hover);color:#bdc3c7; padding:10px} #KaXTamAuthor svg {width:13px;height:13px;vertical-align:-3px;margin-left:-3px} #KaXTamAuthor svg path {fill:#bdc3c7} #KaXTamAuthor img{border-radius:100px; max-width:60px;}
+		#KaXTamAuthor h2, #KaXTamAuthor h3 {line-height:20px; padding:0px}
+		#KaXTamAuthor h2{font-size:20px} #KaXTamAuthor h3{font-size:15px; font-weight:400;}
+		#KaXTamAuthor hr{border:none;height:1px;background-color:#bdc3c7;width:90%;margin:10px auto} #KaXTamAuthor2{width:100%;max-width:300px;display:inline-block} #KaXTamAuthor2 svg {width:20px;height:20px;vertical-align:-4px} #KaXTamAuthor2 svg path {fill:#fff} #KaXTamAuthor2 li{float:left; list-style:none;background-color:var(--color-main); color:#fff; width:50%; display:inline-block; text-align:center; transition:all .3s ease; -webkit-margin-start:0px !important} #KaXTamAuthor2 li:hover{background-color:#37b185; transition:all .3s ease} #KaXTamAuthor2 li:nth-child(2){margin-left:-3.5px;border-left:3px solid var(--color-hover);float:right} #KaXTamAuthor2 li a{color:#fff; padding:10px 25px; line-height:40px} .KaXTamAuthor{text-align: left;font-size: 12px; display:flex; justify-content:center; margin-bottom:10px !important} .KaXTamAuthor .tablekiri {padding-right:17px !important;} .KaXTamAuthor .tablekanan{padding-right:7px !important; padding-left:15px !important;} .KaXTamAuthorAtas{text-align:center; margin:auto} .KaXTamAuthorAtas .tablekiriAtas {width:auto;text-align:right; padding-right:25px} .KaXTamAuthorAtas .tablekananAtas{vertical-align:top; text-align:center;}
+		#KaXTamAuthor form {display:block; margin:15px 0 0 0}
+		#KaXTamAuthor form:before {margin-left:7px; margin-top:5px; position:absolute; display:inline-block; width:20px; height:20px; background:url(&quot;data:image/svg+xml,<svg viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'><path d='M20,8L12,13L4,8V6L12,11L20,6M20,4H4C2.89,4 2,4.89 2,6V18A2,2 0 0,0 4,20H20A2,2 0 0,0 22,18V6C22,4.89 21.1,4 20,4Z' fill='%236FC415'/></svg>&quot;) no-repeat; content: &#39;&#39;}
+		#KaXTamAuthor .email {color:#bdc3c7; border:0; padding:8px 10px 8px 34px; width:100%; font-size: 12px;background: rgba(19,19,19,0.48); box-shadow: 0 1px 0 rgba(255,255,255,0.1), inset 0 1px 0 rgba(0,0,0,0.3);}
+		#KaXTamAuthor .medsos{margin-top:20px} #KaXTamAuthor .medsos svg {width:20px;height:20px;margin-top:7px} #KaXTamAuthor .medsos svg path {fill:#fff} .medsos .facebook{background:#3a579a} .medsos a{display:inline-block;text-align:center;margin-right:7px;color:#fff;border-radius:100%;width:33px;height:33px} .medsos a:hover{transform:rotate(360deg)} .medsos .twitter{background:#00abf0} .medsos .googleplus{background:#df4a32} .medsos .youtube{background:#cc181e} .medsos .instagram{background:#992ebc} .medsos .pinterest{background:#cd1c1f} .medsos .linkedin{background:#2554BF} .medsos .tumblr{background:#314358} .medsos .rssfeed{background:#ee802f}
+		#KaXTamAuthor table {margin:0px 0px 10px;}
+		#KaXTamAuthor table td {background:var(--color-hover); border:0px; line-height:27px;; padding:0px}
+		#KaXTamAuthor .KaXTamBounce:before {width:20px;height:20px;display:inline-block;vertical-align:-4px;margin-right:10px;background:url(&quot;data:image/svg+xml,<svg viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'><path d='M1.5,4V5.5C1.5,9.65 3.71,13.28 7,15.3V20H22V18C22,15.34 16.67,14 14,14C14,14 13.83,14 13.75,14C9,14 5,10 5,5.5V4M14,4A4,4 0 0,0 10,8A4,4 0 0,0 14,12A4,4 0 0,0 18,8A4,4 0 0,0 14,4Z' fill='%23fff'/></svg>&quot;) no-repeat;content:&#39;&#39;}
+		#KaXTamAuthor2 ol li:first-child a:before {width:20px;height:20px;display:inline-block;vertical-align:-4px;margin-right:10px;background:url(&quot;data:image/svg+xml,<svg viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'><path d='M15,14C12.33,14 7,15.33 7,18V20H23V18C23,15.33 17.67,14 15,14M6,10V7H4V10H1V12H4V15H6V12H9V10M15,12A4,4 0 0,0 19,8A4,4 0 0,0 15,4A4,4 0 0,0 11,8A4,4 0 0,0 15,12Z' fill='%23fff'/></svg>&quot;) no-repeat;content:&#39;&#39;}
+		#KaXTamAuthor2 ol li:last-child a:before {width:20px;height:20px;display:inline-block;vertical-align:-4px;margin-right:10px;background:url(&quot;data:image/svg+xml,<svg viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'><path d='M12,21.35L10.55,20.03C5.4,15.36 2,12.27 2,8.5C2,5.41 4.42,3 7.5,3C9.24,3 10.91,3.81 12,5.08C13.09,3.81 14.76,3 16.5,3C19.58,3 22,5.41 22,8.5C22,12.27 18.6,15.36 13.45,20.03L12,21.35Z' fill='%23fff'/></svg>&quot;) no-repeat; content:&#39;&#39;}
+		/* #KaXTamCSE {max-height:100%; overflow-y:hidden}
+		#KaXTamCSE .gsc-branding, #KaXTamCSE .gcsc-branding {display:flex}
+		#KaXTamCSE .gsc-control-cse, #KaXTamCSE .gsc-control-cse .gsc-table-result {margin:0; padding:0px}
+		#KaXTamCSE table td {border:0px; padding:10px 0 0 0}
+		#KaXTamCSE .gsc-table-cell-thumbnail {padding-right:10px} */
+		/* Tombol Kontak */
+		:root {
+		--KaXTamKontak-WA: #25D366; /* Warna WhatsApp */
+		--KaXTamKontak-Line: #00C300; /* Warna Line */
+		--KaXTamKontak-Tele: #0088CC; /* Warna Line */
+		--KaXTamKontak-Messenger: #0084FF; /* Warna Messenger */
+		}
+		#KaXTamKontak {text-align:center; width:100%}
+		#KaXTamKontak svg {width:100px;height:100px}
+		#KaXTamKontak .WA svg path {fill:var(--KaXTamKontak-WA)}
+		#KaXTamKontak .Line svg {width: 135px; height: 135px; margin-bottom: -40px; margin-left:5px} #KaXTamKontak .Line svg path {fill:var(--KaXTamKontak-Line)}
+		#KaXTamKontak .Tele svg path {fill:var(--KaXTamKontak-Tele)}
+		#KaXTamKontak .Messenger svg path {fill:var(--KaXTamKontak-Messenger)}
+		#KaXTamKontak .WA, #KaXTamKontak .Line, #KaXTamKontak .Tele, #KaXTamKontak .Messenger {display:inline-block; width:100px; text-align:center; margin:0 30px}
+		#KaXTamKontak .onoffswitch {
+		position: relative; width: 100px;
+		-webkit-user-select:none; -moz-user-select:none; -ms-user-select: none;
+		margin-top:0px;
+		}
+		#KaXTamKontak .onoffswitch-checkbox {
+		display: none;
+		}
+		#KaXTamKontak .onoffswitch-inner {
+		display: block; width: 200%; margin-left: -100%;
+		transition: margin 0.3s ease-in 0s;
+		cursor:pointer;
+		}
+		#KaXTamKontak .onoffswitch-inner:before, .onoffswitch-inner:after {
+		display: block; float: left; width: 50%; height: 30px; padding: 0; line-height: 30px;
+		color: white; font-family: Trebuchet, Arial, sans-serif; font-weight:500; text-align: center;
+		box-sizing: border-box;
+		}
+		#KaXTamKontak .WA .onoffswitch-label {
+		display: block; overflow: hidden;
+		border: 2px solid var(--KaXTamKontak-WA); border-radius: 20px;
+		}
+		#KaXTamKontak .WA .onoffswitch-inner:before {
+		content: &quot;085723944404&quot;;
+		background-color: var(--KaXTamKontak-WA); color: #FFFFFF;
+		font-size:11px;
+		}
+		#KaXTamKontak .WA .onoffswitch-inner:after {
+		content: &quot;WhatsApp&quot;;
+		color: var(--KaXTamKontak-WA);
+		font-size:14px;
+		}
+		#KaXTamKontak .WA:hover .onoffswitch-label .onoffswitch-inner {
+		margin-left: 0;
+		}
+		#KaXTamKontak .Line .onoffswitch-label {
+		display: block; overflow: hidden;
+		border: 2px solid var(--KaXTamKontak-Line); border-radius: 20px;
+		}
+		#KaXTamKontak .Line .onoffswitch-inner:before {
+		content: &quot;KaXTam&quot;;
+		background-color: var(--KaXTamKontak-Line); color: #FFFFFF;
+		font-size:12px;
+		}
+		#KaXTamKontak .Line .onoffswitch-inner:after {
+		content: &quot;Line&quot;;
+		color: var(--KaXTamKontak-Line);
+		font-size:14px;
+		}
+		#KaXTamKontak .Line:hover .onoffswitch-label .onoffswitch-inner {
+		margin-left: 0;
+		}
+		#KaXTamKontak .Tele .onoffswitch-label {
+		display: block; overflow: hidden;
+		border: 2px solid var(--KaXTamKontak-Tele); border-radius: 20px;
+		}
+		#KaXTamKontak .Tele .onoffswitch-inner:before {
+		content: &quot;KaXTam&quot;;
+		background-color: var(--KaXTamKontak-Tele); color: #FFFFFF;
+		font-size:11px;
+		}
+		#KaXTamKontak .Tele .onoffswitch-inner:after {
+		content: &quot;Telegram&quot;;
+		color: var(--KaXTamKontak-Tele);
+		font-size:14px;
+		}
+		#KaXTamKontak .Tele:hover .onoffswitch-label .onoffswitch-inner {
+		margin-left: 0;
+		}
+		#KaXTamKontak .Messenger .onoffswitch-label {
+		display: block; overflow: hidden;
+		border: 2px solid var(--KaXTamKontak-Messenger); border-radius: 25px; -moz-border-radius:25px;
+		}
+		#KaXTamKontak .Messenger .onoffswitch-inner:before {
+		content: &quot;KaXTamcom&quot;;
+		background-color: var(--KaXTamKontak-Messenger); color: #FFFFFF;
+		font-size:12px;
+		}
+		#KaXTamKontak .Messenger .onoffswitch-inner:after {
+		content: &quot;Messenger&quot;;
+		color: var(--KaXTamKontak-Messenger);
+		font-size:14px;
+		}
+		#KaXTamKontak .Messenger:hover .onoffswitch-label .onoffswitch-inner {
+		margin-left: 0;
+		}
+		/* Contact Form */
+		#comments,.post_meta,#blog-pager{display:none} form{color:#666} #kontak{margin:auto;max-width:640px; background-color:var(--color-main); padding:20px; border-radius:15px; -moz-border-radius:15px;} #ContactForm1_contact-form-name, #ContactForm1_contact-form-email{margin:5px auto;padding:15px 12px;background:#fff;color:#444;border:1px solid #fff;box-shadow:inset 0 1px 1px rgba(0,0,0,0.075);border-radius:7px;-moz-border-radius:7px; transition:all 0.3s ease-out}
+		#ContactForm1_contact-form-name {width:calc(50% - 5px); margin-right:10px; border-radius:7px 3px 3px 3px;}
+		#ContactForm1_contact-form-email {width:calc(50% - 5px); border-radius:3px 7px 3px 3px;}
+		#ContactForm1_contact-form-email-message {width:100%; height:175px; margin:5px 0; padding:15px 12px; background:#fff; color:#444; border:1px solid #fff; font-family:inherit; box-shadow:inset 0 1px 1px rgba(0,0,0,0.075); border-radius:3px 3px 7px 7px; resize:none; transition:all 0.3s ease-out}
+		#ContactForm1_contact-form-name:focus,#ContactForm1_contact-form-email:focus,#ContactForm1_contact-form-email-message:focus{outline:none;background:#fff;color:#444;border-color:#66afe9;box-shadow:inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(102,175,233,0.6)}
+		#ContactForm1_contact-form-submit {background:#f1c40f;color:var(--color-hover);width:100%;cursor:pointer;padding:12px 20px; text-align:center; margin-top:10px; letter-spacing:.5px; text-transform:uppercase; border:0px; border-radius:25px;-moz-border-radius:25px; font-weight:500;transition:all .3s ease} #ContactForm1_contact-form-submit:hover{background:var(--color-hover);color:#fff;} .contact-form-success-message-with-border,.contact-form-error-message-with-border{width:100%;color:#fff;margin-top:10px;} img.contact-form-cross{margin:0px 0px 0px 5px;display:inline-block;cursor:pointer;}
+		
+
+
+
+
+
+
+
+
+
+
+
