@@ -203,52 +203,7 @@
 .ignielSpoiler .tombol:focus + .isi {
     visibility:visible; opacity:1; height:auto; margin:10px 0px 5px; padding:10px 15px; transition:all .5s ease;
 }
-/*Cookie Consent Begin*/
-#cookieConsent {
-    background-color: rgba(20,20,20,0.8);
-    min-height: 26px;
-    font-size: 14px;
-    color: #ccc;
-    line-height: 26px;
-    padding: 8px 0 8px 30px;
-    font-family: "Trebuchet MS",Helvetica,sans-serif;
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    display: none;
-    z-index: 9999;
-}
-#cookieConsent a {
-    color: #4B8EE7;
-    text-decoration: none;
-}
-#closeCookieConsent {
-    float: right;
-    display: inline-block;
-    cursor: pointer;
-    height: 20px;
-    width: 20px;
-    margin: -15px 0 0 0;
-    font-weight: bold;
-}
-#closeCookieConsent:hover {
-    color: #FFF;
-}
-#cookieConsent a.cookieConsentOK {
-    background-color: #F1D600;
-    color: #000;
-    display: inline-block;
-    border-radius: 5px;
-    padding: 0 20px;
-    cursor: pointer;
-    float: right;
-    margin: 0 60px 0 10px;
-}
-#cookieConsent a.cookieConsentOK:hover {
-    background-color: #E0C91F;
-}
-/*Cookie Consent End*/
+
 /* Shortcodes */
 		.button{list-style:none;text-align:center;width:95%;margin:10px;padding:2px;font-size:14px;clear:both}.button ul{margin:0;padding:0}.post-body ul.button{list-style:none;text-align:center;margin:20px auto;padding:2px;font-size:14px;clear:both;z-index:2}.button li{display:inline;margin:0 5px;padding:0;list-style:none}.post-body ul.button a.demo,.post-body ul.button a.download{display:block;background:#97b28e;max-width:180px;padding:8px 12px;color:#fff;font-weight:500;font-size:14px;text-align:center;text-transform:uppercase;letter-spacing:0.5px;margin:auto;border-radius:3px;transition:all .3s}.post-body ul.button a.demo{background:#5c7dc2}.post-body ul.button a.download{background:#da972d}.post-body ul.button a.demo:hover,.post-body ul.button a.download:hover{opacity:.9;color:#fff}.first-letter{float:left;color:#f77c6a;font-size:75px;line-height:60px;padding-top:4px;padding-right:8px;padding-left:3px;font-family:Georgia}#wrap{margin:20px auto;text-align:center}.btn{background:#4d90fe;padding:8px 12px;color:#fff;font-weight:500;font-size:14px;text-align:center;text-transform:uppercase;letter-spacing:0.5px;border-radius:4px;transition:all .3s}.btn:hover,.btn:active,.btn.down:hover,.btn.down:active{background:#357ae8}.post-body a:visited.btn,.post-body a:visited.btn.down,.post-body a:link.btn,.post-body a.btn.down,.post-body a.btn:hover,.post-body a.btn:active,.post-body a.btn.down:hover,.post-body a.btn.down:active{color:#fff;text-decoration:none}.btn i{margin:0}.btn.down.anima{-webkit-animation:anim 2s ease-in infinite;animation:anim 2s ease-in infinite}.videoyoutube{text-align:center;margin:auto;width:100%}.video-responsive{position:relative;padding-bottom:56.25%;height:0;overflow:hidden}.video-responsive iframe{position:absolute;top:0;left:0;width:100%; height:100%; border:0} .post-body pre{border-left:0px; solid var(--color-main);margin:.5em auto;white-space:pre;word-wrap:break-word;overflow:auto;background-color:#000000;position:relative;width:100%;box-shadow:0 0 30px rgba(0,0,0,0.4);border-top:17px solid var(--color-main);border-top-color:#8E8E8D;-webkit-border-radius:5px;-moz-border-radius:5px;border-radius:5px;-moz-tab-size:7;-webkit-border-top-radius:5px;-moz-border-radius-top:5px;border-top-radius:5px;-o-tab-size:10;tab-size:12;word-break:normal; user-select:text; -webkit-user-select:text; -khtml-user-select:text; -moz-user-select:text; -ms-user-select:text; user-select:text;-webkit-hyphens:none;-moz-hyphens:none;-ms-hyphens:none;hyphens:none}
 		.post-body pre.html:before, .post-body pre.css:before, .post-body pre.javascript:before, .post-body pre.jquery:before {display: block; background-color:#bde0b9; padding:5px 35px; font-weight:500; font-size:16px; font-family:Google Sans, -apple-system,BlinkMacSystemFont,&quot;Roboto&quot;,&quot;Segoe UI&quot;,&quot;Oxygen-Sans&quot;,&quot;Ubuntu&quot;,&quot;Cantarell&quot;,&quot;Helvetica Neue&quot;,sans-serif; background-repeat:no-repeat; background-size:20px 20px; background-position-x:7px; background-position-y:center;}
