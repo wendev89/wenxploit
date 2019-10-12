@@ -1,10 +1,8 @@
-document.getElementById("heading").innerHTML =
-  localStorage["title"] || "Just Write"; // default text
-document.getElementById("content").innerHTML =
-  localStorage["text"] || "This text is automatically saved every second :) "; // default text
-
-setInterval(function() {
-  // fuction that is saving the innerHTML of the div
-  localStorage["title"] = document.getElementById("heading").innerHTML; // heading div
-  localStorage["text"] = document.getElementById("content").innerHTML; // content div
-}, 1000);
+var span = document.getElementsByTagName('span')[0];
+span.textContent = 'interactive'; // change DOM text content
+span.style.display = 'inline';  // change CSSOM property
+// create a new element, style it, and append it to the DOM
+var loadTime = document.createElement('div');
+loadTime.textContent = 'You loaded this page on: ' + new Date();
+loadTime.style.color = 'blue';
+document.body.appendChild(loadTime);
